@@ -1,0 +1,31 @@
+{
+  "notice": "All keys and images are TEST ONLY; do not flash or use these keys for production.",
+  "sources": [
+    "https://android.googlesource.com/platform/external/avb/+/refs/heads/main/avbtool.py",
+    "https://android.googlesource.com/platform/system/tools/mkbootimg/+/refs/heads/main/mkbootimg.py"
+  ],
+  "reference_sha256": {
+    "avbtool.py": "e5a664a38db623da00f080219bc0ee60a640a9dc4a872803616fae4938ac749b",
+    "mkbootimg.py": "37d84b3d162e0bc62e36c1f4e1c63c85ea0caa9f29be023eb2f8efe006ad948c"
+  },
+  "sha256": {
+    "TEST_ONLY_RSA2048.pem": "20fc2a2029a8f3d47818585438a37906fe5cc48a54c199dd6a7c69bd435dbab6",
+    "TEST_ONLY_RSA2048_PKCS8.pem": "20fc2a2029a8f3d47818585438a37906fe5cc48a54c199dd6a7c69bd435dbab6",
+    "TEST_ONLY_RSA4096.pem": "68f0be6be6f0d2845c1371e81de2f6e5a62160b10ecab1989ff88795dfff0f89",
+    "TEST_ONLY_avb_2048.img": "7bc9b28330f561d59c5d61ed34b0278d1742f08c3720229ab10ef67ea29745ad",
+    "TEST_ONLY_avb_4096.img": "2faa14d49e00f59f700005bc22e525fec7058c2bdade4977959b659372a16f08",
+    "TEST_ONLY_boot_v0.img": "0a1a09082a578bfee4bc8b1804d663e6c3f7d7e36beb7ef2538287d3896ac067",
+    "TEST_ONLY_boot_v1.img": "9a3102e82d4fd86ba085ac67ab5ac3b03bb9ba11d768ecf8041ab7eed332ef1c",
+    "TEST_ONLY_boot_v2.img": "d7c90c277b94351255e5807c3b2650d4bac6441cfe3bb341c6cd1f84c9e50ec1",
+    "TEST_ONLY_boot_v3.img": "efe96f9baf43a125255483e56db7b074e1fbfd2b2ebedc0c7db5e74fbb5e66ac",
+    "TEST_ONLY_boot_v4.img": "870321fc31481d429d80f1b86d7724fb352c47e8314637c41d2d3d1086f0e055",
+    "TEST_ONLY_init_boot.img": "5ead4305af5ff9aa3a81b4b43ef8a7b632698c3472c3f4015c8ce5486173be29",
+    "TEST_ONLY_module_bad.zip": "dad220006acae163dcd087a97983199d8222812d421c2bba1db9e28dc3c73db6",
+    "TEST_ONLY_module_duplicate.zip": "756f0cd550e86883677f454375f5c82f4c748d54e73d03705cb57a6b0682e842",
+    "TEST_ONLY_module_one.zip": "76ddbd5e51b960e73a2175be23b225315d3ca6a18c417ae6d15c7b297eb33c8c",
+    "TEST_ONLY_module_two.zip": "f3bd0f974255ffb1abc140878fdd9609284ea6dd28100781ac752679fa73aa74",
+    "TEST_ONLY_vbmeta.img": "49b57266d7bfd4b3ae6d7142d526f44759720e5bf5dd471f0ecdda608c5454c0",
+    "TEST_ONLY_vbmeta_unsigned.img": "ba4c6a054defd71c4ee86adbe044a72ffc6556cb25070802f5b42f0f560cfc31",
+    "TEST_ONLY_patch_boot.img": "b8613cdf78a0be0468736907c089c1cf011e250533863a0acc863030dbcd000e"
+  }
+}

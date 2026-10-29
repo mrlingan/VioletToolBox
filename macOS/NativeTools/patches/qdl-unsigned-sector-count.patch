@@ -1,0 +1,17 @@
+--- a/src/firehose.c
++++ b/src/firehose.c
+@@ -673 +673 @@
+-		xml_setpropf(node, "num_partition_sectors", "%d", program->num_sectors);
++		xml_setpropf(node, "num_partition_sectors", "%u", program->num_sectors);
+@@ -925 +925 @@
+-	xml_setpropf(node, "num_partition_sectors", "%d", num_sectors);
++	xml_setpropf(node, "num_partition_sectors", "%u", num_sectors);
+@@ -1165 +1165 @@
+-	xml_setpropf(node, "num_partition_sectors", "%d", num_sectors);
++	xml_setpropf(node, "num_partition_sectors", "%u", num_sectors);
+@@ -1293 +1293 @@
+-	xml_setpropf(node, "num_partition_sectors", "%d", read_op->num_sectors);
++	xml_setpropf(node, "num_partition_sectors", "%u", read_op->num_sectors);
+@@ -1451 +1451 @@
+-	xml_setpropf(node, "num_partition_sectors", "%d", op->num_sectors);
++	xml_setpropf(node, "num_partition_sectors", "%u", op->num_sectors);

@@ -111,6 +111,17 @@ ROM 专区 API 面向开发者开放，请合理使用，勿滥用服务资源�
 
 ## 构建
 
+### macOS 原生版本（初版移植）
+
+macOS 移植版以 **0.1.0 未测试开发预览**公开，当前源码尚未编译或测试，未完成真机验收，也尚未与 Windows 功能完全对齐。构建、使用及移植范围见 [macOS/README.md](macOS/README.md)。
+
+```bash
+bash macOS/scripts/test.sh
+bash macOS/scripts/build-app.sh --with-platform-tools --dmg
+```
+
+### Windows 原版
+
 开发环境：Windows 10/11，.NET 8 SDK 或更高版本。
 
 ```powershell

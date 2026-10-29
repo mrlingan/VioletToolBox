@@ -1,0 +1,33 @@
+{
+  "reference": "https://uefi.org/specs/UEFI/2.11/05_GUID_Partition_Table_Format.html",
+  "fixtures": [
+    {
+      "sector_size": 512,
+      "total_sectors": 4096,
+      "first_usable": 34,
+      "last_usable": 4062,
+      "backup_start": 4063,
+      "names": [
+        "boot_a",
+        "persist",
+        "资料"
+      ],
+      "sha256_main": "955fa1e6d08c4dcf31085c06013b4f53b4d882270d95f1eb21594524ae0297c1",
+      "sha256_backup": "057b51c6aceb11ae6b3f34c5eac3ecedc86fda6075d9b7ea57268f8729c4aa3b"
+    },
+    {
+      "sector_size": 4096,
+      "total_sectors": 4096,
+      "first_usable": 6,
+      "last_usable": 4090,
+      "backup_start": 4091,
+      "names": [
+        "boot_a",
+        "persist",
+        "资料"
+      ],
+      "sha256_main": "326541c9912665540e4302d215257c9e0337dfd22a71e51dc35e8e3be4359155",
+      "sha256_backup": "eda94cee1c9b0ba888283afcf0ae5371a4f90c8f73283d6bd6366119064da232"
+    }
+  ]
+}

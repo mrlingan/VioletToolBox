@@ -1,0 +1,42 @@
+{
+  "reference": "VioletToolBox/ocdt_tool.py",
+  "source_sha256": "b0ac026a182a7338b1a913a0dd577726215567854bea19aba94dd6105d88628b",
+  "cases": [
+    {
+      "platform": "qualcomm",
+      "project": 23803,
+      "variant": "standard",
+      "sha256": "2a826380fe6c550c39f2350382dc5c7c1e4f69a2f7960ea35195ba964dc0db00"
+    },
+    {
+      "platform": "qualcomm",
+      "project": 22801,
+      "variant": "mixed_projid",
+      "sha256": "a24b96456287e6301eae1713436f4217de283371fe284e70c868b7788198bdee"
+    },
+    {
+      "platform": "mtk",
+      "project": 23803,
+      "variant": "standard",
+      "sha256": "ab2d98967ee2c6f7dad9ec02c651aa58d74ebb7ddb61c8548cff2841fd1b5e49"
+    },
+    {
+      "platform": "mtk",
+      "project": 4256,
+      "variant": "fill02",
+      "sha256": "e9f737f5e9f75ec526957300c4456c8be7e308e6909fe9e4d65d49105f31817a"
+    },
+    {
+      "platform": "mtk",
+      "project": 23054,
+      "variant": "geyixue_fill",
+      "sha256": "a6dfa4d270785bac37c43ed762f4cfa14fd5508ca51c133922b96dd33f4a9ec1"
+    },
+    {
+      "platform": "mtk",
+      "project": 20001,
+      "variant": "standard",
+      "sha256": "c12537048ef923a7471cdb9cce0e66ca3c3cd6ce6b36954afefbae26735493de"
+    }
+  ]
+}

@@ -1,0 +1,4754 @@
+{
+  "upstream_commit": "153a0d13a0ae855c3e682bf281940e691ef22f21",
+  "note": "UI events are an audit index, not a count of user features. Dynamic controls and backend behavior require manual audit.",
+  "handlers": [
+    {
+      "handler": "CloseButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "CloseButton",
+          "label": ""
+        },
+        {
+          "file": "VioletToolBox/Window1.xaml",
+          "event": "Click",
+          "name": "CloseButton",
+          "label": ""
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 1690
+        },
+        {
+          "file": "VioletToolBox/Window1.xaml.cs",
+          "line": 40
+        }
+      ]
+    },
+    {
+      "handler": "MinimizeButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "MinimizeButton",
+          "label": ""
+        },
+        {
+          "file": "VioletToolBox/Window1.xaml",
+          "event": "Click",
+          "name": "MinimizeButton",
+          "label": ""
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 1813
+        },
+        {
+          "file": "VioletToolBox/Window1.xaml.cs",
+          "line": 46
+        }
+      ]
+    },
+    {
+      "handler": "SideMenu_SelectionChanged",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "SelectionChanged",
+          "name": "",
+          "label": "主页 / 投屏 / 刷写功能 / 基本刷入 / 可视刷写 / 欧加线刷 / EDL刷写 / 降级助手 / 实用功能 / 模块专区 / 断点续传 / 文件传输 / 脱机修补 / 应用管理 / 安卓通用 / Payload / 备份助手 / 刷机资源 / 下载专区 / Rom专区 / 关于"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 434
+        }
+      ]
+    },
+    {
+      "handler": "RebootPhoneButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "RebootPhoneButton",
+          "label": "系统"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 4912
+        }
+      ]
+    },
+    {
+      "handler": "RebootToFastbootButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "RebootToFastbootButton",
+          "label": "Fastboot"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 4936
+        }
+      ]
+    },
+    {
+      "handler": "RebootToFastbootDButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "RebootToFastbootDButton",
+          "label": "FastbootD"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 4960
+        }
+      ]
+    },
+    {
+      "handler": "RebootToRecoveryButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "RebootToRecoveryButton",
+          "label": "Recovery"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 5008
+        }
+      ]
+    },
+    {
+      "handler": "RebootTo9008Button_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "RebootTo9008Button",
+          "label": "9008(EDL)"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 4984
+        }
+      ]
+    },
+    {
+      "handler": "RefreshDeviceButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "RefreshDeviceButton",
+          "label": "刷新设备"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 20355
+        }
+      ]
+    },
+    {
+      "handler": "RebootCommandComboBox_SelectionChanged",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "SelectionChanged",
+          "name": "RebootCommandComboBox",
+          "label": "更多重启指令 / adb reboot sideload / fastboot oem edl / adb shell reboot -p"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 20387
+        }
+      ]
+    },
+    {
+      "handler": "WirelessDebugButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "WirelessDebugButton",
+          "label": "无线调试"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 20371
+        }
+      ]
+    },
+    {
+      "handler": "SwitchSlotButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "SwitchSlotButton",
+          "label": "切换槽位"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 5032
+        }
+      ]
+    },
+    {
+      "handler": "DeviceDetectionToggle_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "DeviceDetectionToggle",
+          "label": "开启后持续检测 ADB 与 Fastboot 设备"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 20238
+        }
+      ]
+    },
+    {
+      "handler": "ToolSelfCheckToggle_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "ToolSelfCheckToggle",
+          "label": ""
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 20255
+        }
+      ]
+    },
+    {
+      "handler": "ToolSelfCheckToggle_Checked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "ToolSelfCheckToggle",
+          "label": ""
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 20286
+        }
+      ]
+    },
+    {
+      "handler": "Button_Click_1",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "开始检测设备"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "停止检测设备"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "传入文件到 / 设备"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "读分区表"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "解包Payload"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 14090
+        }
+      ]
+    },
+    {
+      "handler": "PatchOperationMode_Checked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "OfflinePatchModeRadioButton",
+          "label": "常规脱机修补模式"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "OnePlusAutoRootModeRadioButton",
+          "label": "一加全自动ROOT模式"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.OnePlusAutoRoot.cs",
+          "line": 635
+        }
+      ]
+    },
+    {
+      "handler": "PatchScheme_Checked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "MagiskAlphaPatchRadioButton",
+          "label": "Alpha"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "KernelSuLkmPatchRadioButton",
+          "label": "KernelSU"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "SukiSuLkmPatchRadioButton",
+          "label": "SukiSU"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "ReSukiSuLkmPatchRadioButton",
+          "label": "ReSukiSU"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "APatchPatchRadioButton",
+          "label": "APatch"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "FolkPatchPatchRadioButton",
+          "label": "FolkPatch"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.OnePlusAutoRoot.cs",
+          "line": 686
+        }
+      ]
+    },
+    {
+      "handler": "ChkFastboot_Checked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "chkFastboot",
+          "label": "Fastboot"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 3593
+        }
+      ]
+    },
+    {
+      "handler": "ChkFastboot_Unchecked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Unchecked",
+          "name": "chkFastboot",
+          "label": "Fastboot"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 3604
+        }
+      ]
+    },
+    {
+      "handler": "ChkFastbootD_Checked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "chkFastbootD",
+          "label": "FastbootD"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 3609
+        }
+      ]
+    },
+    {
+      "handler": "ChkFastbootD_Unchecked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Unchecked",
+          "name": "chkFastbootD",
+          "label": "FastbootD"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 3620
+        }
+      ]
+    },
+    {
+      "handler": "BtnSelectMagisk_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "btnSelectMagisk",
+          "label": "选择"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 2185
+        }
+      ]
+    },
+    {
+      "handler": "BtnSelectBoot_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "btnSelectBoot",
+          "label": "选择"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 2205
+        }
+      ]
+    },
+    {
+      "handler": "BtnAutoRoot_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "btnAutoRoot",
+          "label": "开始"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 2649
+        }
+      ]
+    },
+    {
+      "handler": "GkiSelectBootButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "选择"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 2227
+        }
+      ]
+    },
+    {
+      "handler": "SelectAnykernel3Button_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "选择"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 2247
+        }
+      ]
+    },
+    {
+      "handler": "GkiStartBuildButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "开始制作"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 2267
+        }
+      ]
+    },
+    {
+      "handler": "BtnCancelAutoRoot_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "btnCancelAutoRoot",
+          "label": "停止操作"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.OnePlusAutoRoot.cs",
+          "line": 738
+        }
+      ]
+    },
+    {
+      "handler": "BtnClearLog_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "btnClearLog",
+          "label": "清空日志"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 3124
+        }
+      ]
+    },
+    {
+      "handler": "AvbModeComboBox_SelectionChanged",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "SelectionChanged",
+          "name": "AvbModeComboBox",
+          "label": "非链式 / 链式 / 新版本AOSP签名"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 3169
+        }
+      ]
+    },
+    {
+      "handler": "AvbSelectBootButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "选择"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 3134
+        }
+      ]
+    },
+    {
+      "handler": "AvbSelectInitBootButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "选择"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 3139
+        }
+      ]
+    },
+    {
+      "handler": "AvbSelectVbmetaButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "选择"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 3144
+        }
+      ]
+    },
+    {
+      "handler": "AvbSelectAospVbmetaButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "选择"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 3149
+        }
+      ]
+    },
+    {
+      "handler": "AvbSelectAospBootButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "选择"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 3154
+        }
+      ]
+    },
+    {
+      "handler": "AvbSelectAospRecoveryButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "选择"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 3159
+        }
+      ]
+    },
+    {
+      "handler": "AvbSelectAospVbmetaSystemButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "选择"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 3164
+        }
+      ]
+    },
+    {
+      "handler": "AvbAnalyzeVbmetaButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "AvbAnalyzeVbmetaButton",
+          "label": "不知道自己当前版本使用新旧方案的先分析一下 / 分析 vbmeta"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 3174
+        }
+      ]
+    },
+    {
+      "handler": "AvbStartSignButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "AvbStartSignButton",
+          "label": "开始签名"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 3280
+        }
+      ]
+    },
+    {
+      "handler": "ForcePortraitButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "强制竖屏"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 5418
+        }
+      ]
+    },
+    {
+      "handler": "ForceLandscapeButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "强制横屏"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 5432
+        }
+      ]
+    },
+    {
+      "handler": "AutoRotateButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "自动旋转"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 5446
+        }
+      ]
+    },
+    {
+      "handler": "ScreenshotButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "截屏"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 7430
+        }
+      ]
+    },
+    {
+      "handler": "BackKeyButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "返回键"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 5459
+        }
+      ]
+    },
+    {
+      "handler": "HomeKeyButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "主页键"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 5471
+        }
+      ]
+    },
+    {
+      "handler": "RecentAppsButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "多任务"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 5483
+        }
+      ]
+    },
+    {
+      "handler": "LockScreenButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "锁屏"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 5916
+        }
+      ]
+    },
+    {
+      "handler": "VolumeUpButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "音量+"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 5890
+        }
+      ]
+    },
+    {
+      "handler": "VolumeDownButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "音量-"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 5903
+        }
+      ]
+    },
+    {
+      "handler": "VolumeMuteButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "静音"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 7417
+        }
+      ]
+    },
+    {
+      "handler": "StartMirrorButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "StartMirrorButton",
+          "label": "开始投屏"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 5942
+        }
+      ]
+    },
+    {
+      "handler": "StopMirrorButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "StopMirrorButton",
+          "label": "结束投屏"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 6435
+        }
+      ]
+    },
+    {
+      "handler": "AutoMirrorCheckBox_Checked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "AutoMirrorCheckBox",
+          "label": "全自动投屏"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 10655
+        }
+      ]
+    },
+    {
+      "handler": "AutoMirrorCheckBox_Unchecked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Unchecked",
+          "name": "AutoMirrorCheckBox",
+          "label": "全自动投屏"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 10662
+        }
+      ]
+    },
+    {
+      "handler": "MirrorNavigationBarToggle_Checked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "MirrorNavigationBarToggle",
+          "label": "虚拟按键"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 5517
+        }
+      ]
+    },
+    {
+      "handler": "MirrorNavigationBarToggle_Unchecked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Unchecked",
+          "name": "MirrorNavigationBarToggle",
+          "label": "虚拟按键"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 5525
+        }
+      ]
+    },
+    {
+      "handler": "MirrorTitleOptionCheckBox_Changed",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "MirrorTitleShowDeviceNameCheckBox",
+          "label": "设备名称"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Unchecked",
+          "name": "MirrorTitleShowDeviceNameCheckBox",
+          "label": "设备名称"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "MirrorTitleShowSlotCheckBox",
+          "label": "启动槽位"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Unchecked",
+          "name": "MirrorTitleShowSlotCheckBox",
+          "label": "启动槽位"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "MirrorTitleShowAndroidVersionCheckBox",
+          "label": "安卓版本"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Unchecked",
+          "name": "MirrorTitleShowAndroidVersionCheckBox",
+          "label": "安卓版本"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "MirrorTitleShowSerialCheckBox",
+          "label": "设备序列号"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Unchecked",
+          "name": "MirrorTitleShowSerialCheckBox",
+          "label": "设备序列号"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "MirrorTitleShowDeviceCodeCheckBox",
+          "label": "设备代号"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Unchecked",
+          "name": "MirrorTitleShowDeviceCodeCheckBox",
+          "label": "设备代号"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "MirrorTitleShowBuildInfoCheckBox",
+          "label": "版本信息"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Unchecked",
+          "name": "MirrorTitleShowBuildInfoCheckBox",
+          "label": "版本信息"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "MirrorTitleShowUnlockStateCheckBox",
+          "label": "解锁状态"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Unchecked",
+          "name": "MirrorTitleShowUnlockStateCheckBox",
+          "label": "解锁状态"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "MirrorTitleShowBatteryTempCheckBox",
+          "label": "电池温度"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Unchecked",
+          "name": "MirrorTitleShowBatteryTempCheckBox",
+          "label": "电池温度"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "MirrorTitleShowBatteryLevelCheckBox",
+          "label": "电量"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Unchecked",
+          "name": "MirrorTitleShowBatteryLevelCheckBox",
+          "label": "电量"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "MirrorTitleShowStorageCheckBox",
+          "label": "存储空间"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Unchecked",
+          "name": "MirrorTitleShowStorageCheckBox",
+          "label": "存储空间"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 6231
+        }
+      ]
+    },
+    {
+      "handler": "SelectBootFileButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "SelectBootFileButton",
+          "label": "选择"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 9439
+        }
+      ]
+    },
+    {
+      "handler": "AutoRebootCheckBox_Checked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "AutoRebootCheckBox",
+          "label": "自动重启"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.HiddenEnvironment.cs",
+          "line": 1864
+        }
+      ]
+    },
+    {
+      "handler": "FlashBootButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "FlashBootButton",
+          "label": "开始刷入"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 9633
+        }
+      ]
+    },
+    {
+      "handler": "LockBLButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "LockBLButton",
+          "label": "前两个为解锁指令 后两个为回锁指令 / 执行指令"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 9563
+        }
+      ]
+    },
+    {
+      "handler": "SelectXiaomiFlashScriptButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "SelectXiaomiFlashScriptButton",
+          "label": "选择"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 12843
+        }
+      ]
+    },
+    {
+      "handler": "CompleteWipeCheckBox_Checked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "CompleteWipeCheckBox",
+          "label": "清除数据刷机"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.HiddenEnvironment.cs",
+          "line": 1823
+        }
+      ]
+    },
+    {
+      "handler": "KeepDataCheckBox_Checked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "KeepDataCheckBox",
+          "label": "保留数据刷机"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.HiddenEnvironment.cs",
+          "line": 1835
+        }
+      ]
+    },
+    {
+      "handler": "WipeAndLockBLCheckBox_Checked_1",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "WipeAndLockBLCheckBox",
+          "label": "清除数据并回锁BL"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.HiddenEnvironment.cs",
+          "line": 1847
+        }
+      ]
+    },
+    {
+      "handler": "StartXiaomiFlashButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "StartXiaomiFlashButton",
+          "label": "开始线刷"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 12863
+        }
+      ]
+    },
+    {
+      "handler": "FormatDeviceButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "FormatDeviceButton",
+          "label": "恢复出厂设置 / 格式化设备【双清】"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 21359
+        }
+      ]
+    },
+    {
+      "handler": "EraseGoogleLockButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "EraseGoogleLockButton",
+          "label": "解决安卓15无法安装应用 / 擦除谷歌锁"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 21428
+        }
+      ]
+    },
+    {
+      "handler": "FixAdbButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "FixAdbButton",
+          "label": "【需ROOT】解决投屏报错adb push / 修复ADB异常"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 6650
+        }
+      ]
+    },
+    {
+      "handler": "EnableMiuiUsbButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "EnableMiuiUsbButton",
+          "label": "需ROOT / 强开小米USB安全设置"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 6715
+        }
+      ]
+    },
+    {
+      "handler": "ReadOnePlusDdrButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "ReadOnePlusDdrButton",
+          "label": "ADB读一加DDR版本"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 6795
+        }
+      ]
+    },
+    {
+      "handler": "EnableDiagPortButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "EnableDiagPortButton",
+          "label": "需ROOT / ADB / 强开基带调试端口"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 6847
+        }
+      ]
+    },
+    {
+      "handler": "SwitchToMtpButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "SwitchToMtpButton",
+          "label": "ADB切换文件传输"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 6918
+        }
+      ]
+    },
+    {
+      "handler": "AnalyzeOcdtButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "AnalyzeOcdtButton",
+          "label": "用于分析OCDT中的项目号是否为空 / 欧加真 / OCDT / 分析"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 7101
+        }
+      ]
+    },
+    {
+      "handler": "SelectFlashBatButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "SelectFlashBatButton",
+          "label": "选择"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 18638
+        }
+      ]
+    },
+    {
+      "handler": "ProtectPartitionCheckBox_Checked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "ProtectPartitionCheckBox",
+          "label": "保护分区 / 保护基带分区和数据分区不被写入"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 18619
+        }
+      ]
+    },
+    {
+      "handler": "PartitionTableDataGrid_SelectionChanged",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "SelectionChanged",
+          "name": "PartitionTableDataGrid",
+          "label": "选择 / 该分区已受保护，当前禁止写入 / 名称 / 大小 / 文件路径"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.HiddenEnvironment.cs",
+          "line": 2132
+        }
+      ]
+    },
+    {
+      "handler": "PartitionSelectAllCheckBox_Checked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "PartitionSelectAllCheckBox",
+          "label": ""
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 18545
+        }
+      ]
+    },
+    {
+      "handler": "PartitionSelectAllCheckBox_Unchecked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Unchecked",
+          "name": "PartitionSelectAllCheckBox",
+          "label": ""
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 18556
+        }
+      ]
+    },
+    {
+      "handler": "PartitionSelectionCheckBox_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": ""
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 18624
+        }
+      ]
+    },
+    {
+      "handler": "SkipCrcCheckBox_Changed",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "SkipCrcCheckBox",
+          "label": "跳过CRC / 跳过 crclist 和 sparsecrclist 分区，仅对小米线刷 BAT 脚本生效"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Unchecked",
+          "name": "SkipCrcCheckBox",
+          "label": "跳过CRC / 跳过 crclist 和 sparsecrclist 分区，仅对小米线刷 BAT 脚本生效"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 18895
+        }
+      ]
+    },
+    {
+      "handler": "AdbReadPartitionTableButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "AdbReadPartitionTableButton",
+          "label": "读分区表[开机] / 开机状态下读取（需ROOT）"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 11042
+        }
+      ]
+    },
+    {
+      "handler": "ReadPartitionTableButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "ReadPartitionTableButton",
+          "label": "读分区表[FB] / Fastboot模式下读取分区表"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 10854
+        }
+      ]
+    },
+    {
+      "handler": "WritePartitionButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "WritePartitionButton",
+          "label": "写入分区"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 11622
+        }
+      ]
+    },
+    {
+      "handler": "ErasePartitionButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "ErasePartitionButton",
+          "label": "擦除分区 / 擦除指定分区"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 11295
+        }
+      ]
+    },
+    {
+      "handler": "BackupBasebandButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "BackupBasebandButton",
+          "label": "备份字库 / 仅在开机模式下可用（需ROOT）"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 12323
+        }
+      ]
+    },
+    {
+      "handler": "ReadPartitionButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "ReadPartitionButton",
+          "label": "回读分区 / 仅在开机模式下可用（需ROOT）"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 11381
+        }
+      ]
+    },
+    {
+      "handler": "BackupGptButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "BackupGptButton",
+          "label": "备份GPT / 仅在开机模式下可用（需ROOT）"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.FastbootGpt.cs",
+          "line": 58
+        }
+      ]
+    },
+    {
+      "handler": "StopFastbootVisualizationOperationButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "StopFastbootVisualizationOperationButton",
+          "label": "停止操作 / 停止当前页面正在执行的操作"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.FastbootGpt.cs",
+          "line": 189
+        }
+      ]
+    },
+    {
+      "handler": "SelectHiddenRootZipButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "SelectHiddenRootZipButton",
+          "label": "选择"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.HiddenEnvironment.cs",
+          "line": 114
+        }
+      ]
+    },
+    {
+      "handler": "HiddenRootScheme_Checked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "MagiskAlpha28104CheckBox",
+          "label": "Magisk Alpha方案  支持版本：28101~28104"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "MagiskAlpha29000CheckBox",
+          "label": "Magisk Alpha方案  支持版本：29000~最新"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "SUkiSULKMCheckBox",
+          "label": "SUkiSU LKM方案  支持版本：≥4.1 （KernelSU适用≥3.2）【新】"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "SUkiSUGKICheckBox",
+          "label": "SUkiSU GKI/Built-in方案  支持版本：≥3.18"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.HiddenEnvironment.cs",
+          "line": 131
+        }
+      ]
+    },
+    {
+      "handler": "StartHiddenRootButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "StartHiddenRootButton",
+          "label": "开始隐藏"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.HiddenEnvironment.cs",
+          "line": 1066
+        }
+      ]
+    },
+    {
+      "handler": "DownloadHiddenPackageButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "DownloadHiddenPackageButton",
+          "label": "下载隐藏环境资源包V7.0"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.HiddenEnvironment.cs",
+          "line": 151
+        }
+      ]
+    },
+    {
+      "handler": "DetectApp5CheckBox_Checked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "DetectApp5CheckBox",
+          "label": "紫色放大镜"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.HiddenEnvironment.cs",
+          "line": 2443
+        }
+      ]
+    },
+    {
+      "handler": "InstallDetectAppsButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "InstallDetectAppsButton",
+          "label": "开始安装"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.HiddenEnvironment.cs",
+          "line": 169
+        }
+      ]
+    },
+    {
+      "handler": "StartModuleInstallButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "StartModuleInstallButton",
+          "label": "开始安装"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.HiddenEnvironment.cs",
+          "line": 578
+        }
+      ]
+    },
+    {
+      "handler": "ModuleListBox_Drop",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Drop",
+          "name": "ModuleListBox",
+          "label": ""
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.HiddenEnvironment.cs",
+          "line": 891
+        }
+      ]
+    },
+    {
+      "handler": "ClearModuleListButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "ClearModuleListButton",
+          "label": "清空列表"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.HiddenEnvironment.cs",
+          "line": 1052
+        }
+      ]
+    },
+    {
+      "handler": "SelectModuleButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "手动选择模块文件 / 选择"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.HiddenEnvironment.cs",
+          "line": 968
+        }
+      ]
+    },
+    {
+      "handler": "VioletDownloadBrowseOutputButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "VioletDownloadBrowseOutputButton",
+          "label": "选择"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.VioletDownload.cs",
+          "line": 135
+        }
+      ]
+    },
+    {
+      "handler": "VioletDownloadOpenFolderButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "VioletDownloadOpenFolderButton",
+          "label": "打开目录"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.VioletDownload.cs",
+          "line": 152
+        }
+      ]
+    },
+    {
+      "handler": "VioletDownloadStartButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "VioletDownloadStartButton",
+          "label": "开始下载"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.VioletDownload.cs",
+          "line": 58
+        }
+      ]
+    },
+    {
+      "handler": "VioletDownloadPauseButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "VioletDownloadPauseButton",
+          "label": "暂停"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.VioletDownload.cs",
+          "line": 122
+        }
+      ]
+    },
+    {
+      "handler": "VioletDownloadResumeButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "VioletDownloadResumeButton",
+          "label": "继续"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.VioletDownload.cs",
+          "line": 76
+        }
+      ]
+    },
+    {
+      "handler": "VioletDownloadReplaceUrlButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "VioletDownloadReplaceUrlButton",
+          "label": "使用新链接继续"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.VioletDownload.cs",
+          "line": 104
+        }
+      ]
+    },
+    {
+      "handler": "LoadSystemZoneLocationButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "加载目录"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 16762
+        }
+      ]
+    },
+    {
+      "handler": "Button_Click_2",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "传出文件到电脑"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 15666
+        }
+      ]
+    },
+    {
+      "handler": "RefreshButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "刷新目录"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 16757
+        }
+      ]
+    },
+    {
+      "handler": "BackButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "返回上级"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 16742
+        }
+      ]
+    },
+    {
+      "handler": "InstallApkButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "安装APK"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 16946
+        }
+      ]
+    },
+    {
+      "handler": "DeleteSelectedFilesButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "删除"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 16785
+        }
+      ]
+    },
+    {
+      "handler": "FileListTextBox_Drop",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Drop",
+          "name": "",
+          "label": "新建文件夹 / 新建文件 / 重命名 / 删除"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 15276
+        }
+      ]
+    },
+    {
+      "handler": "FileListTextBox_SelectionChanged",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "SelectionChanged",
+          "name": "",
+          "label": "新建文件夹 / 新建文件 / 重命名 / 删除"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 16204
+        }
+      ]
+    },
+    {
+      "handler": "CreateSystemZoneFolderMenuItem_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "SystemZoneNewFolderMenuItem",
+          "label": "新建文件夹"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 15844
+        }
+      ]
+    },
+    {
+      "handler": "CreateSystemZoneFileMenuItem_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "SystemZoneNewFileMenuItem",
+          "label": "新建文件"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 15849
+        }
+      ]
+    },
+    {
+      "handler": "RenameSystemZoneItemMenuItem_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "SystemZoneRenameMenuItem",
+          "label": "重命名"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 15854
+        }
+      ]
+    },
+    {
+      "handler": "DeleteSystemZoneItemMenuItem_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "SystemZoneDeleteMenuItem",
+          "label": "删除"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 15948
+        }
+      ]
+    },
+    {
+      "handler": "BackToDriverTileButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "返回主页"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 8966
+        }
+      ]
+    },
+    {
+      "handler": "BrowseInputButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "选择"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.Payload.cs",
+          "line": 304
+        },
+        {
+          "file": "VioletToolBox/Payload_Dumper_C#/MainWindow.xaml.cs",
+          "line": 188
+        }
+      ]
+    },
+    {
+      "handler": "BrowseOutputButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "选择"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.Payload.cs",
+          "line": 317
+        },
+        {
+          "file": "VioletToolBox/Payload_Dumper_C#/MainWindow.xaml.cs",
+          "line": 201
+        }
+      ]
+    },
+    {
+      "handler": "PartitionsDataGrid_SelectionChanged",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "SelectionChanged",
+          "name": "",
+          "label": "分区名称 / 分区大小"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.Payload.cs",
+          "line": 1359
+        },
+        {
+          "file": "VioletToolBox/Payload_Dumper_C#/MainWindow.xaml.cs",
+          "line": 638
+        }
+      ]
+    },
+    {
+      "handler": "PayloadSelectAllCheckBox_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": ""
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.Payload.cs",
+          "line": 713
+        }
+      ]
+    },
+    {
+      "handler": "ReadInfoButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "读取信息"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.Payload.cs",
+          "line": 332
+        },
+        {
+          "file": "VioletToolBox/Payload_Dumper_C#/MainWindow.xaml.cs",
+          "line": 216
+        }
+      ]
+    },
+    {
+      "handler": "ExportButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "提取镜像"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.Payload.cs",
+          "line": 480
+        },
+        {
+          "file": "VioletToolBox/Payload_Dumper_C#/MainWindow.xaml.cs",
+          "line": 322
+        }
+      ]
+    },
+    {
+      "handler": "PayloadStopOperationButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "停止操作"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.Payload.cs",
+          "line": 667
+        }
+      ]
+    },
+    {
+      "handler": "RomBrandComboBox_SelectionChanged",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "SelectionChanged",
+          "name": "RomBrandComboBox",
+          "label": "OPPO / OnePlus / Realme / Xiaomi / Redmi / 魅族"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/RomDownload.cs",
+          "line": 3051
+        }
+      ]
+    },
+    {
+      "handler": "RomSeriesComboBox_SelectionChanged",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "SelectionChanged",
+          "name": "RomSeriesComboBox",
+          "label": ""
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/RomDownload.cs",
+          "line": 2914
+        }
+      ]
+    },
+    {
+      "handler": "RomDeviceComboBox_SelectionChanged",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "SelectionChanged",
+          "name": "RomDeviceComboBox",
+          "label": ""
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/RomDownload.cs",
+          "line": 2994
+        }
+      ]
+    },
+    {
+      "handler": "RomVersionComboBox_SelectionChanged",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "SelectionChanged",
+          "name": "RomVersionComboBox",
+          "label": ""
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/RomDownload.cs",
+          "line": 3004
+        }
+      ]
+    },
+    {
+      "handler": "RomDownloadStartButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "开始下载"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/RomDownload.cs",
+          "line": 4338
+        }
+      ]
+    },
+    {
+      "handler": "RomSelectBrandComboBox_SelectionChanged",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "SelectionChanged",
+          "name": "RomSelectBrandComboBox",
+          "label": "OPPO / OnePlus / Realme / Xiaomi / Redmi / 魅族"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/RomDownload.cs",
+          "line": 3096
+        }
+      ]
+    },
+    {
+      "handler": "RomSelectSeriesComboBox_SelectionChanged",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "SelectionChanged",
+          "name": "RomSelectSeriesComboBox",
+          "label": ""
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/RomDownload.cs",
+          "line": 3189
+        }
+      ]
+    },
+    {
+      "handler": "RomSelectDeviceComboBox_SelectionChanged",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "SelectionChanged",
+          "name": "RomSelectDeviceComboBox",
+          "label": ""
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/RomDownload.cs",
+          "line": 3237
+        }
+      ]
+    },
+    {
+      "handler": "RomSelectVersionComboBox_SelectionChanged",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "SelectionChanged",
+          "name": "RomSelectVersionComboBox",
+          "label": ""
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/RomDownload.cs",
+          "line": 3247
+        }
+      ]
+    },
+    {
+      "handler": "RomSelectPackageTypeComboBox_SelectionChanged",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "SelectionChanged",
+          "name": "RomSelectPackageTypeComboBox",
+          "label": "全量包 / 售后包"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/RomDownload.cs",
+          "line": 3134
+        }
+      ]
+    },
+    {
+      "handler": "LaunchNekoDownloader_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "启动NEKO下载器"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/RomDownload.cs",
+          "line": 3622
+        }
+      ]
+    },
+    {
+      "handler": "LaunchNdmDownloader_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "启动 NDM 下载器"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/RomDownload.cs",
+          "line": 3627
+        }
+      ]
+    },
+    {
+      "handler": "RomNetworkRepairButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "RomNetworkRepairButton",
+          "label": "修复网络异常"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/RomDownload.cs",
+          "line": 3632
+        }
+      ]
+    },
+    {
+      "handler": "RomSelectCopyLinksButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "RomSelectCopyLinksButton",
+          "label": "复制下载链接"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/RomDownload.cs",
+          "line": 3426
+        }
+      ]
+    },
+    {
+      "handler": "C16DynamicCheckBox_Checked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "C16DynamicCheckBox",
+          "label": "C16动态解析"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/RomDownload.cs",
+          "line": 3845
+        }
+      ]
+    },
+    {
+      "handler": "C16DynamicCheckBox_Unchecked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Unchecked",
+          "name": "C16DynamicCheckBox",
+          "label": "C16动态解析"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/RomDownload.cs",
+          "line": 3865
+        }
+      ]
+    },
+    {
+      "handler": "LenovoPresetModelComboBox_SelectionChanged",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "SelectionChanged",
+          "name": "LenovoPresetModelComboBox",
+          "label": "Y700二代 / Y700三代 / Y700四代 / Y700五代"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/RomDownload.cs",
+          "line": 3804
+        }
+      ]
+    },
+    {
+      "handler": "LenovoQueryButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "LenovoQueryButton",
+          "label": "开始查询"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/RomDownload.cs",
+          "line": 3798
+        }
+      ]
+    },
+    {
+      "handler": "LenovoQueryCopyButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "LenovoQueryCopyButton",
+          "label": "复制链接"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/RomDownload.cs",
+          "line": 3826
+        }
+      ]
+    },
+    {
+      "handler": "EdlFactoryResetButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "EdlFactoryResetButton",
+          "label": "恢复出厂设置"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.EdlFlash.cs",
+          "line": 1617
+        }
+      ]
+    },
+    {
+      "handler": "EdlWriteGptButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "EdlWriteGptButton",
+          "label": "写入GPT"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.EdlFlash.cs",
+          "line": 1644
+        }
+      ]
+    },
+    {
+      "handler": "EdlFormatLunButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "EdlFormatLunButton",
+          "label": "格式化LUN"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.EdlFlash.cs",
+          "line": 2187
+        }
+      ]
+    },
+    {
+      "handler": "EdlBackupModemFingerprintButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "EdlBackupModemFingerprintButton",
+          "label": "备份基带指纹"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.EdlFlash.cs",
+          "line": 1773
+        }
+      ]
+    },
+    {
+      "handler": "EdlBackupGptButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "EdlBackupGptButton",
+          "label": "备份GPT"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.EdlFlash.cs",
+          "line": 1717
+        }
+      ]
+    },
+    {
+      "handler": "EdlForceOemButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "EdlForceOemButton",
+          "label": "强开OEM"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.EdlFlash.cs",
+          "line": 1827
+        }
+      ]
+    },
+    {
+      "handler": "EdlSlotManagementButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "EdlSlotManagementButton",
+          "label": "槽位管理"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.EdlFlash.cs",
+          "line": 1873
+        }
+      ]
+    },
+    {
+      "handler": "EdlReadVersionInfoButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "EdlReadVersionInfoButton",
+          "label": "读版本信息"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.EdlFlash.cs",
+          "line": 1881
+        }
+      ]
+    },
+    {
+      "handler": "EdlBugFeedbackButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "EdlBugFeedbackButton",
+          "label": "BUG反馈"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.EdlFeedback.cs",
+          "line": 31
+        }
+      ]
+    },
+    {
+      "handler": "EdlLoaderBrowseButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "EdlLoaderBrowseButton",
+          "label": "选择"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.EdlFlash.cs",
+          "line": 3799
+        }
+      ]
+    },
+    {
+      "handler": "EdlFlashPackBrowseButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "EdlFlashPackBrowseButton",
+          "label": "选择"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.EdlFlash.cs",
+          "line": 3700
+        }
+      ]
+    },
+    {
+      "handler": "EdlBuiltInLoaderComboBox_SelectionChanged",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "SelectionChanged",
+          "name": "EdlBuiltInLoaderComboBox",
+          "label": "加载云端引导..."
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.EdlFlash.cs",
+          "line": 980
+        }
+      ]
+    },
+    {
+      "handler": "EdlPartSelectAllCheckBox_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "EdlPartSelectAllCheckBox",
+          "label": "全选"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.EdlFlash.cs",
+          "line": 4057
+        }
+      ]
+    },
+    {
+      "handler": "EdlPartitionSearchComboBox_SelectionChanged",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "SelectionChanged",
+          "name": "EdlPartitionSearchComboBox",
+          "label": ""
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.EdlFlash.cs",
+          "line": 2610
+        }
+      ]
+    },
+    {
+      "handler": "EdlToggleSelectAllCheckBox_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "EdlSelectAllCheckBox",
+          "label": ""
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.EdlFlash.cs",
+          "line": 4067
+        }
+      ]
+    },
+    {
+      "handler": "EdlStopOperationButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "EdlStopOperationButton",
+          "label": "停止操作 / 等待当前分区完成后停止后续操作"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.EdlFlash.cs",
+          "line": 4044
+        }
+      ]
+    },
+    {
+      "handler": "EdlReadGptButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "EdlReadGptButton",
+          "label": "读分区表"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.EdlFlash.cs",
+          "line": 4548
+        }
+      ]
+    },
+    {
+      "handler": "EdlReadPartButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "EdlReadPartButton",
+          "label": "回读分区"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.EdlFlash.cs",
+          "line": 4608
+        }
+      ]
+    },
+    {
+      "handler": "EdlWritePartButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "EdlWritePartButton",
+          "label": "写入分区"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.EdlFlash.cs",
+          "line": 4668
+        }
+      ]
+    },
+    {
+      "handler": "EdlErasePartButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "EdlErasePartButton",
+          "label": "擦除分区"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.EdlFlash.cs",
+          "line": 4834
+        }
+      ]
+    },
+    {
+      "handler": "EdlResetComboBox_SelectionChanged",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "SelectionChanged",
+          "name": "EdlResetComboBox",
+          "label": "EDL重启 / 重启到系统 / 重启到EDL / 重启到Recovery / 重启到FastbootD"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.EdlFlash.cs",
+          "line": 4107
+        }
+      ]
+    },
+    {
+      "handler": "EdlFactoryResetCheckBox_Checked_Edl",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "EdlFactoryResetCheckBox",
+          "label": "自动格式化"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.EdlFlash.cs",
+          "line": 1613
+        }
+      ]
+    },
+    {
+      "handler": "EdlFactoryResetCheckBox_Unchecked_Edl",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Unchecked",
+          "name": "EdlFactoryResetCheckBox",
+          "label": "自动格式化"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.EdlFlash.cs",
+          "line": 1615
+        }
+      ]
+    },
+    {
+      "handler": "EdlSkipSafeCheckBox_Checked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "EdlSkipSafeCheckBox",
+          "label": "保护基带指纹"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.EdlFlash.cs",
+          "line": 1589
+        }
+      ]
+    },
+    {
+      "handler": "EdlSkipSafeCheckBox_Unchecked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Unchecked",
+          "name": "EdlSkipSafeCheckBox",
+          "label": "保护基带指纹"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.EdlFlash.cs",
+          "line": 1591
+        }
+      ]
+    },
+    {
+      "handler": "EdlSkipDataCheckBox_Checked_Edl",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "EdlSkipDataCheckBox",
+          "label": "保护数据"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.EdlFlash.cs",
+          "line": 1609
+        }
+      ]
+    },
+    {
+      "handler": "EdlSkipDataCheckBox_Unchecked_Edl",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Unchecked",
+          "name": "EdlSkipDataCheckBox",
+          "label": "保护数据"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.EdlFlash.cs",
+          "line": 1611
+        }
+      ]
+    },
+    {
+      "handler": "BtnBrowseDir_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "BtnBrowseDir",
+          "label": "选择"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.ColorOSAssistant.cs",
+          "line": 488
+        }
+      ]
+    },
+    {
+      "handler": "BtnBrowseFile_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "BtnBrowseFile",
+          "label": "选择"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.ColorOSAssistant.cs",
+          "line": 501
+        }
+      ]
+    },
+    {
+      "handler": "BtnBrowseAssistantApk_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "BtnBrowseAssistantApk",
+          "label": "选择"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.ColorOSAssistant.cs",
+          "line": 515
+        }
+      ]
+    },
+    {
+      "handler": "BtnDownloadApk_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "BtnDownloadApk",
+          "label": "【第一步】下载降级助手 APK / 必须下载安装到需降级的设备"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.ColorOSAssistant.cs",
+          "line": 536
+        }
+      ]
+    },
+    {
+      "handler": "BtnQueryOnly_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "BtnQueryOnly",
+          "label": "【第二步】查询降级包"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.ColorOSAssistant.cs",
+          "line": 553
+        }
+      ]
+    },
+    {
+      "handler": "StartBtn_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "StartBtn",
+          "label": "【第三步】下载并推送"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.ColorOSAssistant.cs",
+          "line": 558
+        }
+      ]
+    },
+    {
+      "handler": "PackagesGrid_SelectionChanged",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "SelectionChanged",
+          "name": "PackagesGrid",
+          "label": "选择 / ColorOS 版本 / 安卓版本 / 文件大小 / OTA 版本名 / 操作 / 复制链接"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.ColorOSAssistant.cs",
+          "line": 291
+        }
+      ]
+    },
+    {
+      "handler": "CopyColorOSDownloadLink_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "复制链接"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.ColorOSAssistant.cs",
+          "line": 447
+        }
+      ]
+    },
+    {
+      "handler": "BtnLoadImages_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "btnLoadImages",
+          "label": "🔄 加载图片"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.BackupAssistant.cs",
+          "line": 114
+        }
+      ]
+    },
+    {
+      "handler": "BtnToggleSelectAll_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "btnToggleSelectAll",
+          "label": "✓ 全选"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.BackupAssistant.cs",
+          "line": 552
+        }
+      ]
+    },
+    {
+      "handler": "BtnBackup_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "btnBackup",
+          "label": "💾 备份选中图片"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.BackupAssistant.cs",
+          "line": 656
+        }
+      ]
+    },
+    {
+      "handler": "BtnRestoreContacts_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "btnRestoreContacts",
+          "label": "📥 恢复通讯录"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.BackupAssistant.cs",
+          "line": 951
+        }
+      ]
+    },
+    {
+      "handler": "BtnNavPhotos_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "btnNavPhotos",
+          "label": " 📷\n图片"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.BackupAssistant.cs",
+          "line": 797
+        }
+      ]
+    },
+    {
+      "handler": "BtnNavVideos_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "btnNavVideos",
+          "label": " 🎬\n视频"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.BackupAssistant.cs",
+          "line": 809
+        }
+      ]
+    },
+    {
+      "handler": "BtnNavContacts_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "btnNavContacts",
+          "label": "  📞\n通讯录"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.BackupAssistant.cs",
+          "line": 821
+        }
+      ]
+    },
+    {
+      "handler": "SocialMediaButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "哔哩哔哩：泡菜学不会"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "酷安：泡菜学不会"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "抖音：泡菜学不会"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "GitHub：paocai"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "Telegram：violettoolbox"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 13949
+        }
+      ]
+    },
+    {
+      "handler": "AppListThirdPartyToggle_Checked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "AppListSwitchToggle",
+          "label": ""
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 4037
+        }
+      ]
+    },
+    {
+      "handler": "AppListSystemToggle_Checked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "AppListSwitchToggle复制__C_",
+          "label": ""
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 4047
+        }
+      ]
+    },
+    {
+      "handler": "CopySelectedPackagesButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "CopySelectedPackagesButton",
+          "label": "复制包名"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 4762
+        }
+      ]
+    },
+    {
+      "handler": "SelectAllAppPackagesCheckBox_Checked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "SelectAllAppPackagesCheckBox",
+          "label": ""
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 4010
+        }
+      ]
+    },
+    {
+      "handler": "SelectAllAppPackagesCheckBox_Unchecked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Unchecked",
+          "name": "SelectAllAppPackagesCheckBox",
+          "label": ""
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 4023
+        }
+      ]
+    },
+    {
+      "handler": "ReadAppListButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "ReadAppListButton",
+          "label": "读取应用列表"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 3831
+        }
+      ]
+    },
+    {
+      "handler": "ViewDisabledAppsButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "ViewDisabledAppsButton",
+          "label": "查看冻结应用"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 4328
+        }
+      ]
+    },
+    {
+      "handler": "FreezeSelectedAppsButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "FreezeSelectedAppsButton",
+          "label": "冻结"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 4151
+        }
+      ]
+    },
+    {
+      "handler": "UnfreezeSelectedAppsButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "UnfreezeSelectedAppsButton",
+          "label": "解冻"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 4240
+        }
+      ]
+    },
+    {
+      "handler": "ExtractApkButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "ExtractApkButton",
+          "label": "提取 APK 安装包"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 4479
+        }
+      ]
+    },
+    {
+      "handler": "FreezeMiuiUpdaterButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "FreezeMiuiUpdaterButton",
+          "label": "目前仅支持小米 / 冻结更新"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 4598
+        }
+      ]
+    },
+    {
+      "handler": "UnfreezeMiuiUpdaterButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "UnfreezeMiuiUpdaterButton",
+          "label": "恢复更新"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 4628
+        }
+      ]
+    },
+    {
+      "handler": "ClearAppDataButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "ClearAppDataButton",
+          "label": "清除应用数据"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 4667
+        }
+      ]
+    },
+    {
+      "handler": "UninstallSelectedAppsButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "UninstallSelectedAppsButton",
+          "label": "卸载选中应用"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 4092
+        }
+      ]
+    },
+    {
+      "handler": "SelectSuperScatterButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "SelectSuperScatterButton",
+          "label": "选择"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 21488
+        }
+      ]
+    },
+    {
+      "handler": "CleanupMyPartitionsCheckBox_Checked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "CleanupMyPartitionsCheckBox",
+          "label": "清理残留文件"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 21650
+        }
+      ]
+    },
+    {
+      "handler": "StartSuperPackButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "StartSuperPackButton",
+          "label": "开始打包"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 21502
+        }
+      ]
+    },
+    {
+      "handler": "SelectOfpFileButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "SelectOfpFileButton",
+          "label": "选择"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 17246
+        }
+      ]
+    },
+    {
+      "handler": "StartOfpExtractButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "StartOfpExtractButton",
+          "label": "开始解包"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 17263
+        }
+      ]
+    },
+    {
+      "handler": "SelectImageDirButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "SelectImageDirButton",
+          "label": "选择"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 17681
+        }
+      ]
+    },
+    {
+      "handler": "GenerateFlashScriptButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "GenerateFlashScriptButton",
+          "label": "开始生成"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 17701
+        }
+      ]
+    },
+    {
+      "handler": "CheckBox_Checked_3",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "",
+          "label": "排除敏感文件 / 排除绑定指纹和基带的关键分区"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 13735
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 17801
+        }
+      ]
+    },
+    {
+      "handler": "SelectOpsFileButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "SelectOpsFileButton",
+          "label": "选择"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 17578
+        }
+      ]
+    },
+    {
+      "handler": "StartOpsExtractButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "StartOpsExtractButton",
+          "label": "开始解包"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 17595
+        }
+      ]
+    },
+    {
+      "handler": "SelectUnpackedFolderButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "SelectUnpackedFolderButton",
+          "label": "选择"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 17809
+        }
+      ]
+    },
+    {
+      "handler": "StartConvertFlashButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "StartConvertFlashButton",
+          "label": "开始线刷"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 17828
+        }
+      ]
+    },
+    {
+      "handler": "CheckBox_Checked_4",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "",
+          "label": "清除数据"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 13740
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 17805
+        }
+      ]
+    },
+    {
+      "handler": "SelectOfpSuperPartsFolderButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "SelectOfpSuperSegmentsButton",
+          "label": "选择"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 17378
+        }
+      ]
+    },
+    {
+      "handler": "StartMergeOfpSuperButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "StartMergeOfpSuperButton",
+          "label": "开始合并"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 17503
+        }
+      ]
+    },
+    {
+      "handler": "ReadOutPartitionButton_Click_New",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "回读分区"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 18165
+        }
+      ]
+    },
+    {
+      "handler": "PushZipToSdcardButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "推送卡刷包"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 18477
+        }
+      ]
+    },
+    {
+      "handler": "WriteSelectedPartitionButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "写入分区"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 18364
+        }
+      ]
+    },
+    {
+      "handler": "GenerateOcdtButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "GenerateOcdtButton",
+          "label": "生成 OCDT"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 6958
+        }
+      ]
+    },
+    {
+      "handler": "RepairSuperHardBrickButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "RepairSuperHardBrickButton",
+          "label": "修复Super真死"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.SuperRepair.cs",
+          "line": 11
+        }
+      ]
+    },
+    {
+      "handler": "OugaPartitionTableDataGrid_SelectionChanged",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "SelectionChanged",
+          "name": "OugaPartitionTableDataGrid",
+          "label": "名称 / 大小 / 文件路径"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/oujiaflash.cs",
+          "line": 169
+        }
+      ]
+    },
+    {
+      "handler": "SelectAllCheckBox_Checked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "SelectAllCheckBox",
+          "label": ""
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/oujiaflash.cs",
+          "line": 11403
+        }
+      ]
+    },
+    {
+      "handler": "SelectAllCheckBox_Unchecked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Unchecked",
+          "name": "SelectAllCheckBox",
+          "label": ""
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/oujiaflash.cs",
+          "line": 11415
+        }
+      ]
+    },
+    {
+      "handler": "FullPackageModeCheckBox_Checked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "FullPackageModeCheckBox",
+          "label": "全量包模式"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/oujiaflash.cs",
+          "line": 1450
+        }
+      ]
+    },
+    {
+      "handler": "FullPackageModeCheckBox_Unchecked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Unchecked",
+          "name": "FullPackageModeCheckBox",
+          "label": "全量包模式"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/oujiaflash.cs",
+          "line": 1455
+        }
+      ]
+    },
+    {
+      "handler": "AfterSalesPackageModeCheckBox_Checked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "AfterSalesPackageModeCheckBox",
+          "label": "售后包模式"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/oujiaflash.cs",
+          "line": 1470
+        }
+      ]
+    },
+    {
+      "handler": "AfterSalesPackageModeCheckBox_Unchecked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Unchecked",
+          "name": "AfterSalesPackageModeCheckBox",
+          "label": "售后包模式"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/oujiaflash.cs",
+          "line": 1475
+        }
+      ]
+    },
+    {
+      "handler": "PartitionTableValidationEnabledCheckBox_Checked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "PartitionTableValidationEnabledCheckBox",
+          "label": "开启"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/oujiaflash.cs",
+          "line": 1525
+        }
+      ]
+    },
+    {
+      "handler": "PartitionTableValidationEnabledCheckBox_Unchecked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Unchecked",
+          "name": "PartitionTableValidationEnabledCheckBox",
+          "label": "开启"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/oujiaflash.cs",
+          "line": 1532
+        }
+      ]
+    },
+    {
+      "handler": "PartitionTableValidationDisabledCheckBox_Checked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "PartitionTableValidationDisabledCheckBox",
+          "label": "关闭"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/oujiaflash.cs",
+          "line": 1550
+        }
+      ]
+    },
+    {
+      "handler": "PartitionTableValidationDisabledCheckBox_Unchecked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Unchecked",
+          "name": "PartitionTableValidationDisabledCheckBox",
+          "label": "关闭"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/oujiaflash.cs",
+          "line": 1557
+        }
+      ]
+    },
+    {
+      "handler": "PayloadPartitionComboBox_SelectionChanged",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "SelectionChanged",
+          "name": "PayloadPartitionComboBox",
+          "label": "请选择快捷提取方案 ↓ / boot / init_boot / 高通修复FastbootD关键分区 / 联发科修复FastbootD关键分区 / 云解包方案-从云端提取线刷文件"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "SelectionChanged",
+          "name": "AfterSalesPayloadPartitionComboBox",
+          "label": "请选择快捷提取方案 ↓ / boot / init_boot / 高通修复FastbootD关键分区 / 联发科修复FastbootD关键分区 / 云解包方案-从云端提取线刷文件"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/oujiaflash.cs",
+          "line": 259
+        }
+      ]
+    },
+    {
+      "handler": "ExtractPartitionButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "ExtractPartitionButton",
+          "label": "提取分区"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "AfterSalesExtractPartitionButton",
+          "label": "提取分区"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/oujiaflash.cs",
+          "line": 6702
+        }
+      ]
+    },
+    {
+      "handler": "SelectPayloadFileButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "SelectPayloadFileButton",
+          "label": "选择"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/oujiaflash.cs",
+          "line": 6627
+        }
+      ]
+    },
+    {
+      "handler": "SelectFolderButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "SelectFolderButton",
+          "label": "选择"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/oujiaflash.cs",
+          "line": 1034
+        }
+      ]
+    },
+    {
+      "handler": "FlashABCheckBox_Checked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "FlashABCheckBox",
+          "label": "AB通刷 / 勾选此项将同时刷入A和B两个分区,并且可以安全的切换设备槽位"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/oujiaflash.cs",
+          "line": 72
+        }
+      ]
+    },
+    {
+      "handler": "FixSuperCheckBox_Checked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "FixSuperCheckBox",
+          "label": "强力线刷 / 部分大分区刷不进去时可选择此模式修复super，默认刷A槽位"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/oujiaflash.cs",
+          "line": 52
+        }
+      ]
+    },
+    {
+      "handler": "PureFBDCheckBox_Checked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "PureFBDCheckBox",
+          "label": "仅FBD / 没有Fastboot的机型勾选这个，天玑处理器设备请勿勾选"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/oujiaflash.cs",
+          "line": 62
+        }
+      ]
+    },
+    {
+      "handler": "FixFastbootDButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "修复FastbootD"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "AfterSalesFixFastbootDButton",
+          "label": "修复FastbootD"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/oujiaflash.cs",
+          "line": 6078
+        }
+      ]
+    },
+    {
+      "handler": "ArbFuseCheckButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "ArbFuseCheckButton",
+          "label": "ARB熔断检测"
+        },
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "AfterSalesArbFuseCheckButton",
+          "label": "ARB熔断检测"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/oujiaflash.cs",
+          "line": 7121
+        }
+      ]
+    },
+    {
+      "handler": "StartFlashButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "开始线刷"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/oujiaflash.cs",
+          "line": 1655
+        }
+      ]
+    },
+    {
+      "handler": "AfterSalesFlashPackTextBox_Drop",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Drop",
+          "name": "AfterSalesFlashPackTextBox",
+          "label": "选择一个散包文件夹或将散包拖动到此自动选择..."
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/oujiaflash.cs",
+          "line": 1254
+        }
+      ]
+    },
+    {
+      "handler": "AfterSalesSelectFolderButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "AfterSalesSelectFolderButton",
+          "label": "选择"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/oujiaflash.cs",
+          "line": 1216
+        }
+      ]
+    },
+    {
+      "handler": "AfterSalesFastbootDModeToggle_Checked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "AfterSalesFastbootDModeToggle",
+          "label": "FBD模式"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/oujiaflash.cs",
+          "line": 10494
+        }
+      ]
+    },
+    {
+      "handler": "AfterSalesFastbootDModeToggle_Unchecked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Unchecked",
+          "name": "AfterSalesFastbootDModeToggle",
+          "label": "FBD模式"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/oujiaflash.cs",
+          "line": 10506
+        }
+      ]
+    },
+    {
+      "handler": "AfterSalesBootloaderModeToggle_Checked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "AfterSalesBootloaderModeToggle",
+          "label": "FB模式"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/oujiaflash.cs",
+          "line": 10510
+        }
+      ]
+    },
+    {
+      "handler": "AfterSalesBootloaderModeToggle_Unchecked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Unchecked",
+          "name": "AfterSalesBootloaderModeToggle",
+          "label": "FB模式"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/oujiaflash.cs",
+          "line": 10522
+        }
+      ]
+    },
+    {
+      "handler": "AfterSalesAutoBrickRecoveryModeToggle_Checked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Checked",
+          "name": "AfterSalesAutoBrickRecoveryModeToggle",
+          "label": "自动救砖模式"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/oujiaflash.cs",
+          "line": 10526
+        }
+      ]
+    },
+    {
+      "handler": "AfterSalesAutoBrickRecoveryModeToggle_Unchecked",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Unchecked",
+          "name": "AfterSalesAutoBrickRecoveryModeToggle",
+          "label": "自动救砖模式"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/oujiaflash.cs",
+          "line": 10538
+        }
+      ]
+    },
+    {
+      "handler": "AfterSalesStartFlashButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "AfterSalesStartFlashButton",
+          "label": "开始线刷"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/oujiaflash.cs",
+          "line": 9379
+        }
+      ]
+    },
+    {
+      "handler": "JoinQQGroupButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "V3.7-260814-R56"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 6631
+        }
+      ]
+    },
+    {
+      "handler": "LanguageSwitchButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "LanguageSwitchButton",
+          "label": "切换至 English /  / EN"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.Localization.cs",
+          "line": 513
+        }
+      ]
+    },
+    {
+      "handler": "CmdButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "CMD命令行"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 6571
+        }
+      ]
+    },
+    {
+      "handler": "DeviceManagerButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "设备管理器"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/MainWindow.xaml.cs",
+          "line": 6599
+        }
+      ]
+    },
+    {
+      "handler": "BrandComboBox_SelectionChanged",
+      "ui": [
+        {
+          "file": "VioletToolBox/SuperRepair/RepairSuperWindow.xaml",
+          "event": "SelectionChanged",
+          "name": "BrandComboBox",
+          "label": ""
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/SuperRepair/RepairSuperWindow.xaml.cs",
+          "line": 71
+        }
+      ]
+    },
+    {
+      "handler": "SeriesComboBox_SelectionChanged",
+      "ui": [
+        {
+          "file": "VioletToolBox/SuperRepair/RepairSuperWindow.xaml",
+          "event": "SelectionChanged",
+          "name": "SeriesComboBox",
+          "label": ""
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/SuperRepair/RepairSuperWindow.xaml.cs",
+          "line": 78
+        }
+      ]
+    },
+    {
+      "handler": "DeviceComboBox_SelectionChanged",
+      "ui": [
+        {
+          "file": "VioletToolBox/SuperRepair/RepairSuperWindow.xaml",
+          "event": "SelectionChanged",
+          "name": "DeviceComboBox",
+          "label": ""
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/SuperRepair/RepairSuperWindow.xaml.cs",
+          "line": 85
+        }
+      ]
+    },
+    {
+      "handler": "RepairButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/SuperRepair/RepairSuperWindow.xaml",
+          "event": "Click",
+          "name": "RepairButton",
+          "label": "开始修复"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/SuperRepair/RepairSuperWindow.xaml.cs",
+          "line": 175
+        }
+      ]
+    },
+    {
+      "handler": "ContinueButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/SuperRepair/SuperSizeMismatchWindow.xaml",
+          "event": "Click",
+          "name": "",
+          "label": "机型无误，继续刷入"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/SuperRepair/SuperSizeMismatchWindow.xaml.cs",
+          "line": 24
+        }
+      ]
+    },
+    {
+      "handler": "WiredToWirelessButton_Click",
+      "ui": [
+        {
+          "file": "VioletToolBox/Window1.xaml",
+          "event": "Click",
+          "name": "WiredToWirelessButton",
+          "label": "有线转无线连接"
+        }
+      ],
+      "source": [
+        {
+          "file": "VioletToolBox/Window1.xaml.cs",
+          "line": 56
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+--- a/src/firehose.c
++++ b/src/firehose.c
+@@ -1945,7 +1945,9 @@
+ 				ux_info_tag(UX_TAG_FIREHOSE, "%d patches applied\n", patch_idx);
+ 			break;
+ 		case FIREHOSE_OP_SET_BOOTABLE:
+-			firehose_set_bootable(qdl, op->partition);
++			ret = firehose_set_bootable(qdl, op->partition);
++			if (ret < 0)
++				return ret;
+ 			break;
+ 		case FIREHOSE_OP_RESET:
+ 			ret = firehose_reset(qdl);
